@@ -8,9 +8,9 @@
       console:
         enabled: true
     jpa:
-      database-platform: org.hibernate.dialect.h2Dialect
+      database-platform: org.hibernate.dialect.H2Dialect
       hibernate:
-        ddl-auto: validate
+        ddl-auto: create
       show-sql: true
     flyway:
       enabled: true
