@@ -23,4 +23,7 @@ public class FoodItemController {
     @PostMapping
     public FoodItem create(@RequestBody FoodItem food) { return foodItemService.save(food); }
 
+    @DeleteMapping
+    public void delete(@PathVariable Long id) {foodItemService.delete(id);}
+
 }
