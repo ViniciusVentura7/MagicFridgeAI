@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.fridgeAI</groupId>
 	<artifactId>Magic-Fridge-AI</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>Magic-Fridge-AI</name>
 	<description>Cadastra alimentos em uma &quot;Geladeira&quot; e com uso de IA cria receitas automaticamente para o usuário de acordo com os alimentos cadastrados.</description>
 	<url/>
@@ -73,6 +73,9 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+
 	</dependencies>
 
 	<build>
