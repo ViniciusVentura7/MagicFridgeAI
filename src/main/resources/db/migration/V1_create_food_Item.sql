@@ -1,5 +1,7 @@
 CREATE TABLE food_item (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
-    calories INT
+    quantity INT,
+    expirationDate DATE,
+    category ENUM('CARNES_E_OVOS', 'LATICINIOS', 'HORTALICAS', 'OLEAGINOSAS_E_SEMENTES', 'FRUTAS', 'CEREAIS_E_GRAOS', 'OLEOS_E_GORDURAS')NOT NULL
 );
